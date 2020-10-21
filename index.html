@@ -26,23 +26,41 @@
             <input
               type="email"
               class="email__input"
-              placeholder="Type your address here"
+              placeholder="Type your email address here..."
             />
-            <img src="./images/ic_arrow.svg" alt="arrow icon" />
+            <svg class="email__icon">
+              <use xlink:href="./images/sprite.svg#ic_arrow"></use>
+            </svg>
           </div>
           <div class="checkbox">
             <input type="checkbox" name="terms-checkbox" id="terms-checkbox" />
-            <label for="terms-checkbox" class="checkbox__label"
-              >i agree to <a href="#">terms and conditions</a></label
-            >
+
+            <label for="terms-checkbox" class="checkbox__label">
+              <div class="checkbox__container">
+                <svg class="checkbox__icon">
+                  <use xlink:href="./images/sprite.svg#check"></use>
+                </svg>
+              </div>
+              <span class="label__text"
+                >I agree to <a href="#">terms and service</a></span
+              >
+            </label>
           </div>
         </div>
         <div class="line"></div>
         <div class="social__icons">
-          <img src="./images/ic_facebook.svg" class="social__icon" />
-          <img src="./images/ic instagram.svg" class="social__icon" />
-          <img src="./images/ic_twitter.svg" class="social__icon" />
-          <img src="./images/ic youtube.svg" class="social__icon" />
+          <svg class="social_icon">
+            <use xlink:href="./images/sprite.svg#ic_facebook"></use>
+          </svg>
+          <svg class="social_icon">
+            <use xlink:href="./images/sprite.svg#ic instagram"></use>
+          </svg>
+          <svg class="social_icon">
+            <use xlink:href="./images/sprite.svg#ic_twitter"></use>
+          </svg>
+          <svg class="social_icon">
+            <use xlink:href="./images/sprite.svg#ic youtube"></use>
+          </svg>
         </div>
       </div>
       <img
